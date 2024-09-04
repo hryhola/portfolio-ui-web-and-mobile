@@ -15,8 +15,8 @@ type Props = {
 
 const ArticleCard = (props: Props) => {
   return (
-    <article className={clsx('bg-white px-4 py-4',
-      { 'rounded-s': !props.noRounding, 'px-0': props.noPaddingX, 'drop-shadow-sm': !props.noShadow },
+    <article className={clsx('bg-white py-4',
+      { 'rounded-s': !props.noRounding, 'px-0': props.noPaddingX, 'px-4': !props.noPaddingX, 'drop-shadow-sm': !props.noShadow },
       props.className
     )}>
         <h3 className='text-1.5xl font-bold'>{props.title}</h3>
