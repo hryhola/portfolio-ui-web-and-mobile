@@ -48,7 +48,7 @@ const HomePage = (props: Props) => {
                 <div className="flex flex-col gap-8">
                     <WorkCard
                         title="Designing Dashboards"
-                        imgsrc="/portfolio-ui-web-and-mobile/images/Work1.png"
+                        imgSrc="/portfolio-ui-web-and-mobile/images/Work1.png"
                         imgAlt="Work Dashboard"
                         tags={['Dashboard']}
                         year={2020}
@@ -56,7 +56,7 @@ const HomePage = (props: Props) => {
                     />
                     <WorkCard
                         title="Vibrant Portraits of 2020"
-                        imgsrc="/portfolio-ui-web-and-mobile/images/Work2.png"
+                        imgSrc="/portfolio-ui-web-and-mobile/images/Work2.png"
                         imgAlt="Work Dashboard"
                         tags={['Illustration']}
                         year={2018}
@@ -64,7 +64,7 @@ const HomePage = (props: Props) => {
                     />
                     <WorkCard
                         title="36 Days of Malayalam type"
-                        imgsrc="/portfolio-ui-web-and-mobile/images/Work3.png"
+                        imgSrc="/portfolio-ui-web-and-mobile/images/Work3.png"
                         imgAlt="Work Dashboard"
                         tags={['Typography']}
                         year={2018}
