@@ -1,5 +1,4 @@
 import {
-  BrowserRouter as Router,
   Routes,
   Route
 } from "react-router-dom";
@@ -12,7 +11,6 @@ import WorkPage from "./pages/WorksPage";
 
 export default function App() {
   return (<>
-    <Router>
       <Header />
       <Routes>
         <Route path="/work/:wordId" element={<WorkDetailPage />} />
@@ -21,7 +19,6 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
       </Routes>
       <Footer />
-    </Router>
   </>
   )
 }
